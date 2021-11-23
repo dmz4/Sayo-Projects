@@ -1,0 +1,86 @@
+@media only screen and (max-width: 992px) {
+    #homeResponsive {
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        h2{
+            margin-top: 4px;
+        }
+    }
+    #homeResponsive:hover{
+        color: white !important;
+
+    }
+    #cabecera {
+        display: none;
+    }
+
+    #menu {
+        min-width: 100%;
+    }
+    #submenuResponsive{
+        display: none;
+    }
+    #publicidad{
+        display: none;
+    }
+    #categorias{
+        article{
+            padding-bottom: 20px;
+            a{
+                img{
+                    height: 160px;
+                    width: 280px;
+                }
+                .nameCat{
+                    font-size: 16px;
+                }
+            }
+            a:hover{
+                img{
+                    height: 165px;
+                    width: 290px;
+                }
+            }
+        }
+    }
+    #criterios{
+        section{
+            font-size: 14px;
+            img{
+                width: 220px;
+                height: 170px;
+    
+            }
+            h3{
+                font-size: 16px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    #about{
+        section{
+            img{
+                margin-top: -5rem;
+            }
+            p{
+                padding: 0px 10px;
+            }
+        }
+    }
+    .galeryResponsive{
+        img{
+            height: 240px;
+        }
+    }
+    #address{
+        iframe{
+            width: 100%;
+            height: 25rem;
+        }
+    }
+}

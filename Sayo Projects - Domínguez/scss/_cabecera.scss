@@ -1,0 +1,21 @@
+#cabecera {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    align-items: center;
+    h1{
+        font-family: $f-prim;
+        padding-left: 6px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+}
+#logoResponsive{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    width: 38px;
+    height: 38px;
+   
+}

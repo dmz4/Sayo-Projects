@@ -1,0 +1,28 @@
+#categorias{
+    margin-top: -15px;
+    article{
+        a{
+            text-decoration: none;
+            color: black;
+            img{
+                border-radius: 12px;
+                border: 1px solid;
+                transition: all 0.5s;
+                height: 260px;
+                width: 430px;
+            }
+            .nameCat{
+                margin-top: 10px;
+                font-size: 21px;
+                font-family: $f-prim;
+            }
+        }
+        a:hover{
+            img{
+                width: 440px; 
+                height: 266px;
+            }
+        }
+    } 
+
+}

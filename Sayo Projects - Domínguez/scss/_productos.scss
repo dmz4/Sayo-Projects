@@ -1,0 +1,35 @@
+.producto{
+    border: 0px solid;
+    padding: 20px;
+    font-family: $f-prim;
+    .nameProductos{
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: bold;
+
+    }
+    .botonShop{
+        font-family: "Raleway";
+        background-color: black;
+        color: white;
+        margin-top: 1px;
+        padding: 0.4rem;
+        text-decoration: none;
+        border: 0px;
+        width: 90px;
+        height: 35px;
+    }
+    .botonShop:hover{
+        background-color: $color-ter;
+        border: 0px;
+    }
+    .precio{
+        font-family: $f-sec;
+        font-size: 14px;
+
+    }
+    img{
+        border: 2px solid;
+        border-radius: 10px;
+    }
+}

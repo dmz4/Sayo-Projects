@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$f-prim: 'Raleway';
+$f-sec: 'Open sans';
+$color-ter: #CE1B1B;
+
+/*------------Cabecera-------------*/
+@import "cabecera";
+/*--------------Menu--------------*/
+@import "menu";
+/*--------------General------------------*/
+#tituloCuerpo{
+    margin-top: 18px;
+    text-align: center;
+    color: black;
+    font-family: $f-sec;
+}
+/*---------------INDEX-----------------*/
+@import "productos";
+/*------------Publicidad--------------*/
+@import "publicidad";
+
+/*--------------Categorias----------------------*/
+@import "categorias";
+/*-------------Solicitudes------------------*/
+@import "solicitudes";
+/*-----------SOBRE NOSOTROS---------------*/
+#about{
+    section{
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+/*----------------------Contacto--------------------------*/
+#address{
+    align-self: center;
+    iframe{
+        width: 45rem;
+        height: 25rem;
+        border: 1px solid;
+        margin-top: 15px;
+    }
+    
+}
+
+/*-------------Footer-------------*/
+#pie{
+    font-family: $f-prim;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(23,23,23,1) 100%);
+    margin-top: calc(30vh);
+}
+
+/*--------------Responsive----------------*/
+@import "responsive";

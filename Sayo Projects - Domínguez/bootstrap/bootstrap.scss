@@ -1,0 +1,8 @@
+$primary: #000000;
+$danger: #ffffff;
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

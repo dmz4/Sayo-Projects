@@ -1,0 +1,22 @@
+#criterios{
+    font-family: $f-prim;
+    padding: 0px 16%;
+    text-align: justify;
+    line-height: 1.8;
+    section{
+        img{
+            padding-top: 17px;
+            display: flex;
+            margin: auto;
+            width: 350px;
+            height: 210px;
+
+        }
+        h3{
+            font-size: 21px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+}

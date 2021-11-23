@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------Cabecera-------------*/
+#cabecera {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  align-items: center;
+}
+#cabecera h1 {
+  font-family: "Raleway";
+  padding-left: 6px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#logoResponsive {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  width: 38px;
+  height: 38px;
+}
+
+/*--------------Menu--------------*/
+#menu {
+  display: flex;
+  max-width: 88%;
+  margin: auto;
+  background: linear-gradient(180deg, black 0%, #171717 100%);
+}
+#menu ul {
+  flex: auto;
+  justify-content: space-around;
+  line-height: 0.9;
+}
+#menu ul li a {
+  font-family: "Raleway";
+  color: white;
+  font-size: 17.5px;
+}
+#menu ul li a:hover {
+  color: #CE1B1B;
+}
+
+#homeResponsive {
+  display: none;
+}
+
+#submenu {
+  line-height: 1.3 !important;
+}
+#submenu a {
+  color: white;
+}
+#submenu a:hover {
+  background: black;
+}
+
+/*--------------General------------------*/
+#tituloCuerpo {
+  margin-top: 18px;
+  text-align: center;
+  color: black;
+  font-family: "Open sans";
+}
+
+/*---------------INDEX-----------------*/
+.producto {
+  border: 0px solid;
+  padding: 20px;
+  font-family: "Raleway";
+}
+.producto .nameProductos {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.producto .botonShop {
+  font-family: "Raleway";
+  background-color: black;
+  color: white;
+  margin-top: 1px;
+  padding: 0.4rem;
+  text-decoration: none;
+  border: 0px;
+  width: 90px;
+  height: 35px;
+}
+.producto .botonShop:hover {
+  background-color: #CE1B1B;
+  border: 0px;
+}
+.producto .precio {
+  font-family: "Open sans";
+  font-size: 14px;
+}
+.producto img {
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+/*------------Publicidad--------------*/
+#publicidad a {
+  text-decoration: none;
+  font-family: "Raleway";
+  margin: 10px 0px;
+}
+#publicidad a img {
+  border-radius: 20px;
+  transition: all 1s;
+}
+#publicidad a:hover img {
+  width: 220px;
+  height: 220px;
+}
+
+/*--------------Categorias----------------------*/
+#categorias {
+  margin-top: -15px;
+}
+#categorias article a {
+  text-decoration: none;
+  color: black;
+}
+#categorias article a img {
+  border-radius: 12px;
+  border: 1px solid;
+  transition: all 0.5s;
+  height: 260px;
+  width: 430px;
+}
+#categorias article a .nameCat {
+  margin-top: 10px;
+  font-size: 21px;
+  font-family: "Raleway";
+}
+#categorias article a:hover img {
+  width: 440px;
+  height: 266px;
+}
+
+/*-------------Solicitudes------------------*/
+#criterios {
+  font-family: "Raleway";
+  padding: 0px 16%;
+  text-align: justify;
+  line-height: 1.8;
+}
+#criterios section img {
+  padding-top: 17px;
+  display: flex;
+  margin: auto;
+  width: 350px;
+  height: 210px;
+}
+#criterios section h3 {
+  font-size: 21px;
+}
+#criterios section p {
+  font-size: 17px;
+}
+
+/*-----------SOBRE NOSOTROS---------------*/
+#about section p {
+  text-align: justify;
+}
+
+/*----------------------Contacto--------------------------*/
+#address {
+  align-self: center;
+}
+#address iframe {
+  width: 45rem;
+  height: 25rem;
+  border: 1px solid;
+  margin-top: 15px;
+}
+
+/*-------------Footer-------------*/
+#pie {
+  font-family: "Raleway";
+  background: linear-gradient(180deg, black 0%, #171717 100%);
+  margin-top: 30vh;
+}
+
+/*--------------Responsive----------------*/
+@media only screen and (max-width: 992px) {
+  #homeResponsive {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  #homeResponsive h2 {
+    margin-top: 4px;
+  }
+
+  #homeResponsive:hover {
+    color: white !important;
+  }
+
+  #cabecera {
+    display: none;
+  }
+
+  #menu {
+    min-width: 100%;
+  }
+
+  #submenuResponsive {
+    display: none;
+  }
+
+  #publicidad {
+    display: none;
+  }
+
+  #categorias article {
+    padding-bottom: 20px;
+  }
+  #categorias article a img {
+    height: 160px;
+    width: 280px;
+  }
+  #categorias article a .nameCat {
+    font-size: 16px;
+  }
+  #categorias article a:hover img {
+    height: 165px;
+    width: 290px;
+  }
+
+  #criterios section {
+    font-size: 14px;
+  }
+  #criterios section img {
+    width: 220px;
+    height: 170px;
+  }
+  #criterios section h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #criterios section p {
+    font-size: 14px;
+  }
+
+  #about section img {
+    margin-top: -5rem;
+  }
+  #about section p {
+    padding: 0px 10px;
+  }
+
+  .galeryResponsive img {
+    height: 240px;
+  }
+
+  #address iframe {
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -235,6 +235,9 @@
     width: 290px;
   }
 
+  #criterios {
+    padding: 0px 9%;
+  }
   #criterios section {
     font-size: 14px;
   }
@@ -258,7 +261,8 @@
   }
 
   .galeryResponsive img {
-    height: 240px;
+    width: 10%;
+    height: 5%;
   }
 
   #address iframe {

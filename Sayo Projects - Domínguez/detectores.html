@@ -69,46 +69,75 @@
           </div>
         </div>
     </nav>
-    <h2 id="tituloCuerpo">Contacto</h2>  
-    <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
-        <div class="text-center mb-4" id="titulo-formulario">
-            <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
-        
-            <p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
+    <h2 id="tituloCuerpo">Detectores</h2>
+    <div class="container my-5 text-center">
+        <div class="row">
+            <section class="col-12 col-md-12 col-lg-9">
+                <div class="row">
+                    <article class="col-12 col-sm-6 col-md-4 producto">
+                        <img src="imagenes/productos/humo.png" width="200px" height= "200px" alt="Detector de humo">
+                        <h3 class="nameProductos">Detector de humo</h3>
+                        <p class="precio">MXN 399</p>
+                        <button class="btn btn-primary botonShop" data-bs-toggle="modal" data-bs-target="#non-existent">
+                            Añadir
+                            <i class="fas fa-cart-plus"></i>
+                        </button>
+                    </article>
+
+                    <article class="col-12 col-sm-6 col-md-4 producto">
+                        <img src="imagenes/productos/huella.jpg" width= "200px" height= "200px" alt="Detector de huella">
+                        <h3 class="nameProductos">Detector de huella</h3>
+                        <p class="precio">MXN 399</p>
+                        <button class="btn btn-primary botonShop" data-bs-toggle="modal" data-bs-target="#non-existent">
+                            Añadir
+                            <i class="fas fa-cart-plus"></i>
+                        </button>
+                    </article>
+
+                    <article class="col-12 col-sm-6 col-md-4 producto">
+                        <img src="imagenes/productos/bateria.jpg" width= "200px" height= "200px" alt="Detector bateria baja">
+                        <h3 class="nameProductos">Detector de bateria baja</h3>
+                        <p class="precio">MXN 399</p>
+                        <button class="btn btn-primary botonShop" data-bs-toggle="modal" data-bs-target="#non-existent">
+                            Añadir
+                            <i class="fas fa-cart-plus"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+            <aside class="col-lg-3" id="publicidad">
+                <p class="fw-bolder fs-5">Canales recomendados</p>
+                <article class="row">
+                    <a href="https://www.youtube.com/c/ElProfeGarcia" target="_blank"><img src="imagenes/publicidad/profe.jpg" alt="" width="200" height="200"> <br> Profe García </a>
+                </article>
+                <article class="row">
+                    <a href="https://www.youtube.com/c/ElTraductordeIngenier%C3%ADa" target="_blank"><img src="imagenes/publicidad/ing.jpg" alt="" width="200" height="200"> <br> Traductor de ingeniería </a>
+                </article>
+                <article class="row">
+                    <a href="https://www.youtube.com/channel/UCzTi9I3zApECTkukkMOpEEA"target="_blank"><img src="imagenes/publicidad/sarosi.jpg" alt="" width="200" height="200"> <br> Antonio Sarosi </a>
+                </article>
+            </aside>
         </div>
-        <form action="">     
-                <div class= "mb-3">           
-                <input type="email" class="form-control border border-2 border-primary" id="email" placeholder="E-mail">
-                </div>
-    
-            
-                <div class="mb-3">            
-                <input type="input" class="form-control border border-2 border-primary" id="nombre" placeholder="Nombre">
-                </div>
-        
-    
-                <div class="mb-3">
-                <input type="email" class="form-control border border-2 border-primary" id="exampleFormControlInput1" placeholder="Teléfono">
-                </div>
-    
-            <div class="mb-3">       
-                <textarea class="form-control border border-2 border-primary" id="msj" rows="4" placeholder="Comentario"></textarea>
-            </div>
-    
-            <div class="mb-3">
-                <button type="button" class=" btn btn-primary w-100 fs-5">Enviar</button>
-            </div>
-        </form>
-    
     </div>
 
-    <div class="container text-center mt-5" id="address">
-        <h4>También puedes encontrarnos en nuestra sucursal</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.1484206267255!2d-102.5459739386325!3d22.759872574367893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824e8ebe2d82a5%3A0xc9d1c0785b2007e1!2sBurger%20King!5e0!3m2!1ses-419!2smx!4v1635792382893!5m2!1ses-419!2smx"  allowfullscreen="" loading="lazy"></iframe>
+    <div class="modal fade" id="non-existent" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Lo sentimos</h5>
+                </div>
+                <div class="modal-body">
+                    El articulo que desea comprar no esta disponible de momento
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
     </div>
-    
+
     <footer class="bg-primary text-center text-white" id="pie">
-    
+        
         <div class="container pt-3">
           <section class="mb-2">
 

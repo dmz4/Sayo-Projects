@@ -1,158 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sayo Projects es una empresa que crea proyectos de ingeniería para estudiantes y profesionistas">
-    <meta name="keywords" content="Robótica, electrónica, tecnología, ingeniería">
-    <link rel="stylesheet" href="bootstrap/bootstrap.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Sayo Projects</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Sayo Projects es una empresa que crea proyectos de ingeniería para estudiantes y profesionistas">
+  <meta name="keywords" content="Robótica, electrónica, tecnología, ingeniería">
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Sayo Projects</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html" id="cabecera">
-          <img src="/imagenes/logo.svg" alt="Logo" width="62px" height="62px">
-          <h1>Sayo Projects</h1>
-        </a>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-primary bg-primary" id="menu">
-        <div class="container-fluid">
-            <a class="navbar-brand" id="homeResponsive" href="index.html">
-                <img src="/imagenes/logo.svg" alt="Logo" width="60px" height="60px" id="logoResponsive">
-                <h2>Sayo Projects</h2>
+  <header>
+    <a href="index.html" id="cabecera">
+      <img src="/imagenes/logo.svg" alt="Logo" width="62px" height="62px">
+      <h1>Sayo Projects</h1>
+    </a>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="homeResponsive" href="index.html">
+        <img src="/imagenes/logo.svg" alt="Logo" width="60px" height="60px" id="logoResponsive">
+        <h2>Sayo Projects</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/imagenes/menu.svg" alt="">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown d-flex align-self-center">
+            <a class="nav-link active" aria-current="page" href="categorias.html">Categorías</a>
+            <a class="nav-link dropdown-toggle" id="submenuResponsive" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
             </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="/imagenes/menu.svg" alt="">
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <ul class="dropdown-menu bg-primary" id="submenu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="digital.html">Electrónica digital</a>
               </li>
-              <li class="nav-item dropdown d-flex align-self-center">
-                <a class="nav-link active" aria-current="page" href="categorias.html">Categorías</a>
-                <a class="nav-link dropdown-toggle" id="submenuResponsive" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                </a>
-                <ul class="dropdown-menu bg-primary" id="submenu" aria-labelledby="navbarDropdown">
-                    <li>
-                        <a class="dropdown-item" href="digital.html">Electrónica digital</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="analogica.html">Electrónica analógica</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="carros.html">Carros</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="detectores.html">Detectores</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="alarmas.html">Alarmas</a>
-                    </li>
-                  </ul>
+              <li>
+                <a class="dropdown-item" href="analogica.html">Electrónica analógica</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="solicitudes.html">Solicitudes</a>
+              <li>
+                <a class="dropdown-item" href="carros.html">Carros</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about-us.html">¿Quiénes somos?</a>
+              <li>
+                <a class="dropdown-item" href="detectores.html">Detectores</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              <li>
+                <a class="dropdown-item" href="alarmas.html">Alarmas</a>
               </li>
-          </div>
-        </div>
-    </nav>
-    <h2 id="tituloCuerpo">¿Quiénes somos?</h2>
-    <div class="container my-5 text-center">
-        <div class="row" id="about">
-            <section class="col-12 col-md-12 col-lg-5 mt-5">
-                <img src="/imagenes/logo.svg" alt="" width="270px" height="270px">
-
-            </section>
-            <section class="col-12 col-md-12 col-lg-7">
-                <p>
-                    En Sayo Projects nos apasiona la robotica. Hace años que se soñaba con la posibilidad de que existiera en un futuro no muy lejano a la Era del Robot el sueño de hacer que las maquinas controlaran todo en el planeta.
-                    Se esperaba que pudieran inventar robots que fácilmente con una simple orden hicieran todas las tareas que un humano común y corriente debería de hacer.
-                    <br>
-                    Pasados los años se ha logrado perfeccionar estos robots, ahora en las fábricas en lugar de cientos de obreros se utilizan robots en la línea de ensamblaje, el hombre ha cumplido la meta de crear esta tecnología de punta, pero hay que tener en cuenta los pros y contras de esta tecnología.
-                    <br>
-                    El panorama es muy claro esta tecnología puede ayuda en gran magnitud pero si de verdad se sabe utilizar con prudencia.
-                    <br>
-                    <i class="d-flex justify-content-end">"La preparación es la clave del exito"</i>
-                    <br>
-                    <i class="d-flex justify-content-end">-Alexander Graham Bell</i> 
-                </p>
-            </section>
-            
-        </div>
-    </div>
-    <h3 class="text-center">Galería</h3>
-    <br>
-    <div id="carousel-galeria" class="carousel slide container col-11 col-md-11 col-lg-9 galeryResponsive" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active border border-3 rounded-3 border-primary">
-            <img src="/imagenes/galeria/1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item border border-3 rounded-3 border-primary">
-            <img src="/imagenes/galeria/2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item border border-3 rounded-3 border-primary">
-            <img src="/imagenes/galeria/3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-galeria" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-galeria" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="solicitudes.html">Solicitudes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about-us.html">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
       </div>
+    </div>
+  </nav>
+  <h2 id="tituloCuerpo">¿Quiénes somos?</h2>
+  <div class="container my-5 text-center">
+    <div class="row" id="about">
+      <section class="col-12 col-md-12 col-lg-5 mt-5">
+        <img src="/imagenes/logo.svg" alt="" width="270px" height="270px">
+      </section>
+      <section class="col-12 col-md-12 col-lg-7">
+        <p>
+          En Sayo Projects nos apasiona la robotica. Hace años que se soñaba con la posibilidad de que existiera en un
+          futuro no muy lejano a la Era del Robot el sueño de hacer que las maquinas controlaran todo en el planeta.
+          Se esperaba que pudieran inventar robots que fácilmente con una simple orden hicieran todas las tareas que un
+          humano común y corriente debería de hacer.
+          <br>
+          Pasados los años se ha logrado perfeccionar estos robots, ahora en las fábricas en lugar de cientos de obreros
+          se utilizan robots en la línea de ensamblaje, el hombre ha cumplido la meta de crear esta tecnología de punta,
+          pero hay que tener en cuenta los pros y contras de esta tecnología.
+          <br>
+          El panorama es muy claro esta tecnología puede ayuda en gran magnitud pero si de verdad se sabe utilizar con
+          prudencia.
+          <br>
+          <i class="d-flex justify-content-end">"La preparación es la clave del exito"</i>
+          <br>
+          <i class="d-flex justify-content-end">-Alexander Graham Bell</i>
+        </p>
+      </section>
+    </div>
+  </div>
+  <h3 class="text-center">Galería</h3>
+  <br>
+  <div id="carousel-galeria" class="carousel slide container col-11 col-md-11 col-lg-9 galeryResponsive"
+    data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active border border-3 rounded-3 border-primary">
+        <img src="/imagenes/galeria/1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item border border-3 rounded-3 border-primary">
+        <img src="/imagenes/galeria/2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item border border-3 rounded-3 border-primary">
+        <img src="/imagenes/galeria/3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-galeria" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-galeria" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
+  <footer class="bg-primary text-center text-white" id="pie">
 
+    <div class="container pt-3">
+      <section class="mb-2">
 
-    <footer class="bg-primary text-center text-white" id="pie">
-        
-        <div class="container pt-3">
-          <section class="mb-2">
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-github"></i>
+        </a>
 
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-github"></i>
-            </a>
-            
-          </section>
-        </div>
-        <div class="text-center pb-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright - Diego Domínguez
-        </div>
-      </footer>
+      </section>
+    </div>
+    <div class="text-center pb-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright - Diego Domínguez
+    </div>
+  </footer>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

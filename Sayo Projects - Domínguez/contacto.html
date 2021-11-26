@@ -1,141 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sayo Projects es una empresa que crea proyectos de ingeniería para estudiantes y profesionistas">
-    <meta name="keywords" content="Robótica, electrónica, tecnología, ingeniería">
-    <link rel="stylesheet" href="bootstrap/bootstrap.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Sayo Projects</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Sayo Projects es una empresa que crea proyectos de ingeniería para estudiantes y profesionistas">
+  <meta name="keywords" content="Robótica, electrónica, tecnología, ingeniería">
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Sayo Projects</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html" id="cabecera">
-          <img src="/imagenes/logo.svg" alt="Logo" width="62px" height="62px">
-          <h1>Sayo Projects</h1>
+  <header>
+    <a href="index.html" id="cabecera">
+      <img src="/imagenes/logo.svg" alt="Logo" width="62px" height="62px">
+      <h1>Sayo Projects</h1>
+    </a>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="homeResponsive" href="index.html">
+        <img src="/imagenes/logo.svg" alt="Logo" width="60px" height="60px" id="logoResponsive">
+        <h2>Sayo Projects</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/imagenes/menu.svg" alt="">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown d-flex align-self-center">
+            <a class="nav-link active" aria-current="page" href="categorias.html">Categorías</a>
+            <a class="nav-link dropdown-toggle" id="submenuResponsive" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu bg-primary" id="submenu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="digital.html">Electrónica digital</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="analogica.html">Electrónica analógica</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="carros.html">Carros</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="detectores.html">Detectores</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="alarmas.html">Alarmas</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="solicitudes.html">Solicitudes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about-us.html">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <h2 id="tituloCuerpo">Contacto</h2>
+  <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+    <div class="text-center mb-4" id="titulo-formulario">
+      <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+
+      <p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
+    </div>
+    <form action="">
+      <div class="mb-3">
+        <input type="email" class="form-control border border-2 border-primary" id="email" placeholder="E-mail">
+      </div>
+
+
+      <div class="mb-3">
+        <input type="input" class="form-control border border-2 border-primary" id="nombre" placeholder="Nombre">
+      </div>
+
+
+      <div class="mb-3">
+        <input type="email" class="form-control border border-2 border-primary" id="exampleFormControlInput1"
+          placeholder="Teléfono">
+      </div>
+
+      <div class="mb-3">
+        <textarea class="form-control border border-2 border-primary" id="msj" rows="4"
+          placeholder="Comentario"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <button type="button" class=" btn btn-primary w-100 fs-5">Enviar</button>
+      </div>
+    </form>
+
+  </div>
+
+  <div class="container text-center mt-5" id="address">
+    <h4>También puedes encontrarnos en nuestra sucursal</h4>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.1484206267255!2d-102.5459739386325!3d22.759872574367893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824e8ebe2d82a5%3A0xc9d1c0785b2007e1!2sBurger%20King!5e0!3m2!1ses-419!2smx!4v1635792382893!5m2!1ses-419!2smx"
+      allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <footer class="bg-primary text-center text-white" id="pie">
+
+    <div class="container pt-3">
+      <section class="mb-2">
+
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-facebook-f"></i>
         </a>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-primary bg-primary" id="menu">
-        <div class="container-fluid">
-            <a class="navbar-brand" id="homeResponsive" href="index.html">
-                <img src="/imagenes/logo.svg" alt="Logo" width="60px" height="60px" id="logoResponsive">
-                <h2>Sayo Projects</h2>
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="/imagenes/menu.svg" alt="">
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item dropdown d-flex align-self-center">
-                <a class="nav-link active" aria-current="page" href="categorias.html">Categorías</a>
-                <a class="nav-link dropdown-toggle" id="submenuResponsive" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                </a>
-                <ul class="dropdown-menu bg-primary" id="submenu" aria-labelledby="navbarDropdown">
-                    <li>
-                        <a class="dropdown-item" href="digital.html">Electrónica digital</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="analogica.html">Electrónica analógica</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="carros.html">Carros</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="detectores.html">Detectores</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="alarmas.html">Alarmas</a>
-                    </li>
-                  </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="solicitudes.html">Solicitudes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about-us.html">¿Quiénes somos?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-              </li>
-          </div>
-        </div>
-    </nav>
-    <h2 id="tituloCuerpo">Contacto</h2>  
-    <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
-        <div class="text-center mb-4" id="titulo-formulario">
-            <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
-        
-            <p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
-        </div>
-        <form action="">     
-                <div class= "mb-3">           
-                <input type="email" class="form-control border border-2 border-primary" id="email" placeholder="E-mail">
-                </div>
-    
-            
-                <div class="mb-3">            
-                <input type="input" class="form-control border border-2 border-primary" id="nombre" placeholder="Nombre">
-                </div>
-        
-    
-                <div class="mb-3">
-                <input type="email" class="form-control border border-2 border-primary" id="exampleFormControlInput1" placeholder="Teléfono">
-                </div>
-    
-            <div class="mb-3">       
-                <textarea class="form-control border border-2 border-primary" id="msj" rows="4" placeholder="Comentario"></textarea>
-            </div>
-    
-            <div class="mb-3">
-                <button type="button" class=" btn btn-primary w-100 fs-5">Enviar</button>
-            </div>
-        </form>
-    
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-github"></i>
+        </a>
+
+      </section>
     </div>
-
-    <div class="container text-center mt-5" id="address">
-        <h4>También puedes encontrarnos en nuestra sucursal</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.1484206267255!2d-102.5459739386325!3d22.759872574367893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824e8ebe2d82a5%3A0xc9d1c0785b2007e1!2sBurger%20King!5e0!3m2!1ses-419!2smx!4v1635792382893!5m2!1ses-419!2smx"  allowfullscreen="" loading="lazy"></iframe>
+    <div class="text-center pb-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright - Diego Domínguez
     </div>
-    
-    <footer class="bg-primary text-center text-white" id="pie">
-    
-        <div class="container pt-3">
-          <section class="mb-2">
+  </footer>
 
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-github"></i>
-            </a>
-            
-          </section>
-        </div>
-        <div class="text-center pb-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright - Diego Domínguez
-        </div>
-      </footer>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
 </body>
+
 </html>

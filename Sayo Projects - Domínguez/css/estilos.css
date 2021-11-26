@@ -193,13 +193,13 @@
 @media only screen and (max-width: 992px) {
   #homeResponsive {
     display: flex;
-    align-items: center;
     color: white;
     text-decoration: none;
   }
   #homeResponsive h2 {
-    margin-top: 4px;
+    margin-top: 0.6vh;
     font-family: "Raleway", sans-serif;
+    font-weight: bold;
   }
 
   #homeResponsive:hover {

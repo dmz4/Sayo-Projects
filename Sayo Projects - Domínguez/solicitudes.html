@@ -1,149 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sayo Projects es una empresa que crea proyectos de ingeniería para estudiantes y profesionistas">
-    <meta name="keywords" content="Robótica, electrónica, tecnología, ingeniería">
-    <link rel="stylesheet" href="bootstrap/bootstrap.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Sayo Projects</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Sayo Projects es una empresa que crea proyectos de ingeniería para estudiantes y profesionistas">
+  <meta name="keywords" content="Robótica, electrónica, tecnología, ingeniería">
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Sayo Projects</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html" id="cabecera">
-          <img src="/imagenes/logo.svg" alt="Logo" width="62px" height="62px">
-          <h1>Sayo Projects</h1>
-        </a>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-primary bg-primary" id="menu">
-        <div class="container-fluid">
-            <a class="navbar-brand" id="homeResponsive" href="index.html">
-                <img src="/imagenes/logo.svg" alt="Logo" width="60px" height="60px" id="logoResponsive">
-                <h2>Sayo Projects</h2>
+  <header>
+    <a href="index.html" id="cabecera">
+      <img src="/imagenes/logo.svg" alt="Logo" width="62px" height="62px">
+      <h1>Sayo Projects</h1>
+    </a>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="homeResponsive" href="index.html">
+        <img src="/imagenes/logo.svg" alt="Logo" width="60px" height="60px" id="logoResponsive">
+        <h2>Sayo Projects</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/imagenes/menu.svg" alt="">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown d-flex align-self-center">
+            <a class="nav-link active" aria-current="page" href="categorias.html">Categorías</a>
+            <a class="nav-link dropdown-toggle" id="submenuResponsive" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
             </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="/imagenes/menu.svg" alt="">
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <ul class="dropdown-menu bg-primary" id="submenu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="digital.html">Electrónica digital</a>
               </li>
-              <li class="nav-item dropdown d-flex align-self-center">
-                <a class="nav-link active" aria-current="page" href="categorias.html">Categorías</a>
-                <a class="nav-link dropdown-toggle" id="submenuResponsive" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                </a>
-                <ul class="dropdown-menu bg-primary" id="submenu" aria-labelledby="navbarDropdown">
-                    <li>
-                        <a class="dropdown-item" href="digital.html">Electrónica digital</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="analogica.html">Electrónica analógica</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="carros.html">Carros</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="detectores.html">Detectores</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="alarmas.html">Alarmas</a>
-                    </li>
-                  </ul>
+              <li>
+                <a class="dropdown-item" href="analogica.html">Electrónica analógica</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="solicitudes.html">Solicitudes</a>
+              <li>
+                <a class="dropdown-item" href="carros.html">Carros</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about-us.html">¿Quiénes somos?</a>
+              <li>
+                <a class="dropdown-item" href="detectores.html">Detectores</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              <li>
+                <a class="dropdown-item" href="alarmas.html">Alarmas</a>
               </li>
-          </div>
-        </div>
-    </nav>
-    <h2 id="tituloCuerpo">Solicitudes</h2>
-    <div id="criterios">
-        <section>
-          <p>
-            Si ninguno de nuestros diseños es lo que buscas, puedes personalizar el tuyo, para esto debes tomar en cuenta lo siguientes criterios y mandarnos un mensaje a nuestras redes sociales con tus especificaciones.
-          </p>
-          
-        </section>
-    
-        <section>
-            <h3>¿Electrónica analógica o digital?</h3>
-            <p>
-              En la electrónica analógica se usan elementos como capacitores, resistencia, circuitos integrados, entre otros. Se planea combinarlos de manera que se obtenga un comportamiento adecuado solo con las características de estos.
-              En la electrónica digital se usan microcontroladores como Arduino para reemplazar parte de la funcionalidad que harían componentes mencionados anteriormente por medio de programación.
-            </p>
-            <br>
-            <img src="imagenes/electronica.jpg" alt="Electrónica">
-            <br><br>
-        </section>
-            
-        <section>
-            <h3>¿Protoboard o PCB?</h3>
-            <p>
-              Las placas de prueba o protoboard son de mucha ayuda si tu proyecto será solo para que se presente en una sola exibición, esto permitira guardar los componentes y usarlos en ocasiones posteriores
-    
-              PCB consiste en soldar los componentes en una placa de cobre en la cual anteriormente se hizo el contorno del circuito. Es muy util si quieres guardar tu proyecto para usarlo constantemente.
-            </p>
-            <img src="imagenes/proto.jpg" alt="Protoboard">
-            <br><br>
-        </section>
-
-        <section>
-            <h3>Nivel de documentación</h3>
-            <p>
-              Se dividen en bajo, medio y alto.
-              En el nivel bajo se te adjunta solo un manual consico de uso de tu proyecto.
-              En el nivel medio se adjuntan simulaciones con el manual.
-              En el nivel alto se incluyen, además de todo lo anterior, archivos de diseño hechos en solidworks y un video con un time lapse de los procesos de armado de tu proyecto.
-            </p>
-            <img src="imagenes/documentacion.png" alt="Documentacion">
-            <br><br>
-        </section>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="solicitudes.html">Solicitudes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about-us.html">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+      </div>
     </div>
+  </nav>
+  <h2 id="tituloCuerpo">Solicitudes</h2>
+  <div id="criterios">
+    <section>
+      <p>
+        Si ninguno de nuestros diseños es lo que buscas, puedes personalizar el tuyo, para esto debes tomar en cuenta lo
+        siguientes criterios y mandarnos un mensaje a nuestras redes sociales con tus especificaciones.
+      </p>
+
+    </section>
+
+    <section>
+      <h3>¿Electrónica analógica o digital?</h3>
+      <p>
+        En la electrónica analógica se usan elementos como capacitores, resistencia, circuitos integrados, entre otros.
+        Se planea combinarlos de manera que se obtenga un comportamiento adecuado solo con las características de estos.
+        En la electrónica digital se usan microcontroladores como Arduino para reemplazar parte de la funcionalidad que
+        harían componentes mencionados anteriormente por medio de programación.
+      </p>
+      <br>
+      <img src="imagenes/electronica.jpg" alt="Electrónica">
+      <br><br>
+    </section>
+
+    <section>
+      <h3>¿Protoboard o PCB?</h3>
+      <p>
+        Las placas de prueba o protoboard son de mucha ayuda si tu proyecto será solo para que se presente en una sola
+        exibición, esto permitira guardar los componentes y usarlos en ocasiones posteriores
+
+        PCB consiste en soldar los componentes en una placa de cobre en la cual anteriormente se hizo el contorno del
+        circuito. Es muy util si quieres guardar tu proyecto para usarlo constantemente.
+      </p>
+      <img src="imagenes/proto.jpg" alt="Protoboard">
+      <br><br>
+    </section>
+
+    <section>
+      <h3>Nivel de documentación</h3>
+      <p>
+        Se dividen en bajo, medio y alto.
+        En el nivel bajo se te adjunta solo un manual consico de uso de tu proyecto.
+        En el nivel medio se adjuntan simulaciones con el manual.
+        En el nivel alto se incluyen, además de todo lo anterior, archivos de diseño hechos en solidworks y un video con
+        un time lapse de los procesos de armado de tu proyecto.
+      </p>
+      <img src="imagenes/documentacion.png" alt="Documentacion">
+      <br><br>
+    </section>
+  </div>
 
 
 
-    <footer class="bg-primary text-center text-white" id="pie">
-        
-        <div class="container pt-3">
-          <section class="mb-2">
+  <footer class="bg-primary text-center text-white" id="pie">
 
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
-                <i class="fab fa-github"></i>
-            </a>
-            
-          </section>
-        </div>
-        <div class="text-center pb-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright - Diego Domínguez
-        </div>
-      </footer>
+    <div class="container pt-3">
+      <section class="mb-2">
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-github"></i>
+        </a>
+
+      </section>
+    </div>
+    <div class="text-center pb-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright - Diego Domínguez
+    </div>
+  </footer>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

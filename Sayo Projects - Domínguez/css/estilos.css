@@ -13,7 +13,7 @@
   align-items: center;
 }
 #cabecera h1 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   padding-left: 6px;
   font-weight: bold;
   margin-top: 5px;
@@ -39,7 +39,7 @@
   line-height: 0.9;
 }
 #menu ul li a {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: white;
   font-size: 17.5px;
 }
@@ -66,14 +66,14 @@
   margin-top: 18px;
   text-align: center;
   color: black;
-  font-family: "Open sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 /*---------------INDEX-----------------*/
 .producto {
   border: 0px solid;
   padding: 20px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 .producto .nameProductos {
   font-size: 16px;
@@ -96,7 +96,7 @@
   border: 0px;
 }
 .producto .precio {
-  font-family: "Open sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 .producto img {
@@ -107,7 +107,7 @@
 /*------------Publicidad--------------*/
 #publicidad a {
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   margin: 10px 0px;
 }
 #publicidad a img {
@@ -137,7 +137,7 @@
 #categorias article a .nameCat {
   margin-top: 10px;
   font-size: 21px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 #categorias article a:hover img {
   width: 440px;
@@ -146,7 +146,7 @@
 
 /*-------------Solicitudes------------------*/
 #criterios {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   padding: 0px 16%;
   text-align: justify;
   line-height: 1.8;
@@ -183,7 +183,7 @@
 
 /*-------------Footer-------------*/
 #pie {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   background: linear-gradient(180deg, black 0%, #171717 100%);
   margin-top: 30vh;
 }
